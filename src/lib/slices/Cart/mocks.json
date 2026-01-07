@@ -1,0 +1,50 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "People"
+						}
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Irure eiusmod dolor elit adipisicing ea aliquip occaecat aute proident excepteur ea est proident pariatur laboris. Ullamco adipisicing aute anim. Sunt ullamco duis aute fugiat excepteur occaecat proident non aliqua."
+						}
+					}
+				]
+			},
+			"empty_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Dolor fugiat magna officia velit esse exercitation ut cillum esse magna ad."
+						}
+					}
+				]
+			},
+			"product": {
+				"__TYPE__": "LinkContent",
+				"key": "73aade2e-5780-42eb-b955-2998d7a03b7a",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": []
+	}
+]

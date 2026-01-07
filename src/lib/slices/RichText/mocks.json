@@ -1,0 +1,144 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Introducing\nFarbe 800",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Embrace night photography with our new\nemulsion for fine-grained, 800 speed,\ninterior and evening photography.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"ctas": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "0d879652-62ca-4154-96c5-ea61c9b865fe",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://twitter.com",
+							"text": "Shop 800",
+							"variant": "Primary"
+						}
+					},
+					{
+						"key": "bb0c59f7-2205-483e-b2cf-ff71b48482ef",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "AnyLink",
+							"kind": "any",
+							"text": "Discover Farbe"
+						}
+					}
+				]
+			},
+			"product": {
+				"key": "54a12706-e19d-4341-932f-56946b338143",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "fullscreen",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Introducing\nFarbe 800",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Embrace night photography with our new\nemulsion for fine-grained, 800 speed,\ninterior and evening photography.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"ctas": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "815fedff-168e-433d-a528-d201d39414a0",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://slicemachine.dev",
+							"text": "Shop 800",
+							"variant": "Primary"
+						}
+					},
+					{
+						"key": "a51236ef-7e28-43c5-868f-0752a0d2b609",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "AnyLink",
+							"kind": "any",
+							"text": "Discover Farbe"
+						}
+					}
+				]
+			},
+			"product": {
+				"__TYPE__": "LinkContent",
+				"key": "e043fe0f-778a-4654-8e5b-60b5a4332c4a",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

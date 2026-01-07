@@ -1,0 +1,176 @@
+{
+  "id": "picture",
+  "type": "SharedSlice",
+  "name": "Picture",
+  "description": "Picture",
+  "variations": [
+    {
+      "id": "default",
+      "name": "default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "picture": {
+          "type": "Image",
+          "config": {
+            "label": "Picture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "secondary_picture": {
+          "type": "Image",
+          "config": {
+            "label": "Secondary Picture (optional)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "secondary_caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Secondary Caption (optional)",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "product": {
+          "type": "Link",
+          "config": {
+            "label": "Product",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "product"
+            ]
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "top",
+      "name": "Top",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "picture": {
+          "type": "Image",
+          "config": {
+            "label": "Picture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "secondary_picture": {
+          "type": "Image",
+          "config": {
+            "label": "Secondary Picture (optional)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "secondary_caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Secondary Caption (optional)",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "product": {
+          "type": "Link",
+          "config": {
+            "label": "Product",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "product"
+            ]
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "bottom",
+      "name": "Bottom",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "picture": {
+          "type": "Image",
+          "config": {
+            "label": "Picture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "secondary_picture": {
+          "type": "Image",
+          "config": {
+            "label": "Secondary Picture (optional)",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "secondary_caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Secondary Caption (optional)",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "product": {
+          "type": "Link",
+          "config": {
+            "label": "Product",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "product"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

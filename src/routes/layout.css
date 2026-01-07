@@ -1,0 +1,82 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-sans: 'Inter Variable', sans-serif;
+	--font-mono: 'Geist Mono Variable', monospace;
+	--font-mono--font-feature-settings: 'ss09' on;
+	--color-green: #00e67b;
+	--color-white: #dcd8d3;
+}
+
+html {
+	@apply bg-white scroll-smooth;
+}
+
+body {
+	@apply font-mono text-sm;
+}
+
+.cta {
+	@apply inline-block focus-visible:bg-black p-4 focus:outline-none focus-visible:text-white hover:underline leading-tight cursor-pointer;
+
+	&.primary {
+		@apply bg-green focus-visible:bg-black;
+	}
+
+	&.inverted {
+		@apply bg-black focus-visible:bg-transparent text-white focus-visible:text-black;
+	}
+
+	&.muted {
+		@apply opacity-50 hover:opacity-100 focus-visible:opacity-100;
+	}
+
+	&.outlined {
+		@apply border-[1.5px] border-black;
+	}
+}
+
+.bounded {
+	@apply mx-auto xl:mr-0 max-w-[60ch] xl:max-w-2/5 px-8 xl:px-4 py-16;
+}
+
+.rich-text {
+	& > h1 {
+		@apply font-sans font-bold text-[max(3rem,5vw)] leading-none;
+	}
+
+	& > h2 {
+		@apply font-sans font-bold text-[max(1.875rem,2.5vw)] leading-none;
+	}
+
+	& > h3 {
+		@apply font-sans font-bold text-[max(1.25rem,1.25vw)] leading-none;
+
+		&:not(:first-child) {
+			@apply mt-16;
+		}
+	}
+
+	& > p,
+	& > ul,
+	& > ul > li,
+	& > dl {
+		@apply max-w-[40ch] hyphens-auto;
+
+		&:not(:first-child) {
+			@apply mt-4;
+		}
+	}
+
+	& > dl > div {
+		@apply flex justify-between;
+	}
+
+	& > p,
+	& > dl,
+	& li {
+		& > a {
+			@apply focus:bg-black focus:outline-none focus:text-white underline;
+		}
+	}
+}
