@@ -26,7 +26,7 @@
 		{#if settings?.navigation}
 			<ul class="flex items-center backdrop-blur pr-4 pl-8 xl:w-[calc(40%+2rem)]">
 				{#each settings.navigation as link (link.key)}
-					<li>
+					<li class="hidden xl:block">
 						<PrismicLink field={link} class="cta" />
 					</li>
 				{/each}
